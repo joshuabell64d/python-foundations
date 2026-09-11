@@ -1,6 +1,5 @@
 import pytest
-from risk_manager import ProgramProject, RiskItem
-
+from src.risk_manager import ProgramProject, RiskItem
 
 def test_evm_calculations():
     project = ProgramProject("PRJ-TEST", "Test Baseline", 1_000_000.00)

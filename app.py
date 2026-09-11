@@ -1,4 +1,4 @@
-from risk_manager import ProgramProject, RiskItem
+from src.risk_manager import ProgramProject, RiskItem
 
 
 def main():
