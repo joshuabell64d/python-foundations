@@ -1,0 +1,13 @@
+# Virtual Environment
+.venv/
+venv/
+
+# Python Bytecode & Cache
+__pycache__/
+*.pyc
+
+# Pytest Cache
+.pytest_cache/
+
+# VS Code Settings
+.vscode/
