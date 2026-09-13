@@ -11,7 +11,7 @@ def test_read_root():
 
 
 def test_get_sample_project():
-    response = client.get("/projects/sample")
+    response = client.get("/projects/PRJ-001")
     assert response.status_code == 200
     data = response.json()
     assert data["project_id"] == "PRJ-001"
