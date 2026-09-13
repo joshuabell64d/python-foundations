@@ -9,6 +9,7 @@ class ProjectModel(Base):
     id = Column(Integer, primary_key=True, index=True)
     project_id = Column(String, unique=True, index=True, nullable=False)
     name = Column(String, nullable=False)
+    owner = Column(String, nullable=True)  # New column for Alembic migration test
     budget = Column(Float, nullable=False)
     planned_value = Column(Float, default=0.0)
     earned_value = Column(Float, default=0.0)
